@@ -1,0 +1,107 @@
+body {margin:0;}
+
+
+.menu1{
+  width: 10px;
+  height: 10px;
+}
+
+
+.tophd{
+
+overflow: hidden;
+  
+   position: fixed;
+   top: 0;
+   width: 100%;
+
+
+   backdrop-filter: blur (5px);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-radius: 7px;
+   height: 60px;
+}
+
+.logo23{
+
+    
+ padding-left: 15px;
+  height: 25px;
+}
+
+.tophead {
+  overflow: hidden;
+  background-color: ;
+  position:center;
+  top: 0px;
+  width: 97%;
+
+
+  backdrop-filter: blur (5px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px;
+  height: 50px;
+}
+
+tophead a {
+   
+   display: flex;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 5px 5px;
+   text-decoration: none;
+   top: 0;
+}
+.tophead a:hover {
+   background: #ddd;
+   color: black;
+}
+.main {
+ padding: 16px;
+ margin-top: 30px;
+ height: 1500px; 
+ }
+
+ 
+
+
+.navbar {
+  
+  background-color: rgba(25, 25, 50, 0.4);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+backdrop-filter: blur (5px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px;
+  height: 70px;
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
